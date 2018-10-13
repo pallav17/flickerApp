@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @Override
-        protected void onPostExecute(String data) {
+            protected void onPostExecute(String data) {
             super.onPostExecute(data);
             progressBar.setVisibility(View.INVISIBLE);
             recyclerView.setLayoutManager(new LinearLayoutManager(MainActivity.this));

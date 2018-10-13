@@ -17,7 +17,7 @@ public class sampleAdapter  extends RecyclerView.Adapter<sampleAdapter.sampleVie
     private Context context;
     private String[] titleArray;
     private String[] imageUrlArray;
-    public sampleAdapter(Context context, String[] titleArray, String[] imageUrlArray){
+    public sampleAdapter(Context context, String[] titleArray, String[] imageUrlArray ){
         this.context = context;
         this.titleArray = titleArray;
         this.imageUrlArray = imageUrlArray;
