@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class NetworkUtils {
 
-    public final static String BASE_URL = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=8eef5bcc246a9e8d6973f008baec24b3&text=london&safe_search=1&format=json&nojsoncallback=1&extras=url_m";
+    public final static String BASE_URL = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=8eef5bcc246a9e8d6973f008baec24b3&text=NewYork&safe_search=1&format=json&nojsoncallback=1&extras=url_m";
 
     private final static String TAG = "NetworkUtils";
 
